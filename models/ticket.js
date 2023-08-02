@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const ticketSchema = new mongoose.Schema({
   category: { type: String, required: true },
-  color: { type: String, required: true },
+  color: { type: String },
   title: { type: String, required: true },
   owner: { type: String, required: true },
   avatar: { type: String, required: true },
